@@ -2,7 +2,7 @@ require.config({
 
 	deps: ["level13-app"],
 
-	waitSeconds: 3,
+	waitSeconds: 1,
 
 	baseUrl: 'src',
 
@@ -17,9 +17,9 @@ require.config({
 
 	config: {
 		'level13-app': {
-			'isDebugVersion': false,
+			'isDebugVersion': true,
 			'isCheatsEnabled': true,
-			'isDebugOutputEnabled': false,
+			'isDebugOutputEnabled': true,
 			'isAutosaveEnabled': true,
 		}
 	}
